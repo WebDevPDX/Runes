@@ -204,20 +204,24 @@ var alphabetCreation = function() {
 //let the alphabet section populate when document is ready
 var alphabetAnimation = function () {
 
-	//when ready
-	$(document).ready(function(){
+	//delay everything by 2 sec until html is fully loaded
+	setTimeout(function(){
 
-		//for every image do
-		$('.alphabetImage').each(function(i){
+		//when ready
+		$(document).ready(function(){
 
-			//give it time between images (80ms)
-			setTimeout(function(){
+			//for every image do
+			$('.alphabetImage').each(function(i){
 
-				//add class .is-showing (CSS contains the transition)
-				$('.alphabetImage').eq(i).addClass('is-showing');
-			}, 80 * (i + 1));
-		});
-	})
+				//give it time between images (80ms)
+				setTimeout(function(){
+
+					//add class .is-showing (CSS contains the transition)
+					$('.alphabetImage').eq(i).addClass('is-showing');
+				}, 150 * (i + 1));
+			});
+		})
+	}, 2000);
 }
 
 /*
