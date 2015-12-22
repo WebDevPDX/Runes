@@ -8,6 +8,16 @@ body {
 	background-image: url(../img/norwaycoast.jpg);
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: "Eagle Lake";
+	text-decoration: underline;
+}
+
+section {
+	font-family: "Gentium Book Basic";
+	font-size: 1.2rem;
+}
+
 #wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -16,6 +26,11 @@ body {
 
 a {
   text-decoration: none;
+  color: darkred;
+}
+
+a:hover {
+	color: darkgreen;
 }
 
 img {
@@ -31,7 +46,7 @@ header{
 }
 
 
-l1 {
+h1 {
 	font-size: 3rem;
   	font-weight: 700;
   	text-decoration: underline;
@@ -90,7 +105,7 @@ h2 {
 	margin: 1% 1%;
 	display: inline-block;
 	opacity: 0;
-	transform: scale(.3) rotate(-90deg);
+	transform: scale(4) rotate(-90deg);
 	transition: all 0.3s ease-in-out;
 }
 

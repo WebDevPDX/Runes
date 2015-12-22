@@ -1,0 +1,80 @@
+h1, h2, h3, h4, h5 {
+	font-family: "Eagle Lake";
+	text-decoration: underline;
+	text-align: center;
+}
+
+section {
+	width: 64%;
+	float: left;
+	font-family: "Gentium Book Basic";
+	font-size: 1.2rem;
+	border: 2px solid #c3c3c3;
+	padding: 15px 10px;
+	box-sizing: border-box;
+	background-color: rgba(240,240,240,0.5);
+}
+
+#otherContent {
+	width: 34%;
+	float: right;
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+}
+
+li:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+.left {
+	height: 700px;
+}
+
+.by {
+	font-size: .6rem;
+	text-align: center;
+}
+
+.by a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.by a:hover {
+	color: darkgreen;
+}
+
+#historyOne, #historyTwo, #historyThree, #historyFour, #historyFive{
+	display: none;
+}
+
+
+/**********************************
+MEDIA QUERIES
+***********************************/
+
+@media screen and (max-width: 690px) {
+	
+	section {
+		float: none;
+		display: block;
+		width: 95%;
+		margin: 2em auto;
+	}
+
+	.left {
+		height: auto;
+	}
+
+	#otherContent {
+		float: none;
+		display: block;
+		width: 95%;
+		margin: 2em auto;
+	}
+
+}

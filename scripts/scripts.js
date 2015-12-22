@@ -224,31 +224,6 @@ var alphabetAnimation = function () {
 	}, 2000);
 }
 
-/*
-//let the alphabet section populate as it is scrolled to
-var alphabetParallax = function () {
-
-	// on scroll
-	$(window).scroll(function(){
-		var wScroll = $(window).scrollTop();
-
-		// if far enough into viewport
-		if (wScroll > ($('#theAlphabet').offset().top) - wScroll -100) {
-			$('.alphabetImage').each(function(i){
-
-				//give it time between images (80ms)
-				setTimeout(function(){
-
-					//add class .is-showing (CSS contains the transition)
-					$('.alphabetImage').eq(i).addClass('is-showing');
-				}, 80 * (i + 1));
-			});
-		}
-	});
-}
-
-*/
-
 //creating the tooltip for the alphabet section
 
 var alphabetTooltip = function(){
