@@ -1,0 +1,32 @@
+h1, h2, h3, h4, h5 {
+	font-family: "Eagle Lake";
+	text-decoration: underline;
+	text-align: center;
+}
+
+section {
+	width: 64%;
+	float: left;
+	font-family: "Gentium Book Basic";
+	font-size: 1.2rem;
+	border: 2px solid #c3c3c3;
+	padding: 15px 10px;
+	box-sizing: border-box;
+	background-color: rgba(240,240,240,0.5);
+}
+
+#theAlphabet p {
+	text-align: left;
+}
+
+.alphabetImage {
+	width: 18%;
+	margin: 1% 1%;
+	display: inline-block;
+	opacity: 1;
+	transform: scale(1) rotate(0deg);
+}
+
+#fullInfo {
+	display: none;
+}
