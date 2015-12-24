@@ -155,6 +155,7 @@ var alphabetTooltip = function(){
 	});
 }
 
+/*
 //generate the images and descriptions after (ask your question button is pressed)
 var imageGeneration = function() {
 
@@ -208,17 +209,18 @@ var runeGeneration = function() {
 	imageGeneration();
 
 }
+*/
 
 alphabetCreation();
 alphabetAnimation();
 alphabetTooltip();
 
 //assigning click on the throwButton
-$("#throwButton").mousedown(function(){
-	$('#result').empty();
-	runeGeneration();
-	//$overlay.fadeIn(0);
-});
+//$("#throwButton").mousedown(function(){
+//	$('#result').empty();
+//	runeGeneration();
+//	$overlay.fadeIn(0);
+//});
 
 //	$descriptionBox.load(descriptions/ansur.txt);
 //	$closeOverlay.append(descriptionBox);

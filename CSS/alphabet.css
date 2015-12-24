@@ -30,3 +30,25 @@ section {
 #fullInfo {
 	display: none;
 }
+
+/**********************************
+MEDIA QUERIES
+***********************************/
+
+@media screen and (max-width: 690px) {
+	
+	section {
+		float: none;
+		display: block;
+		width: 95%;
+		margin: 2em auto;
+	}
+
+	#otherContent {
+		float: none;
+		display: block;
+		width: 95%;
+		margin: 2em auto;
+	}
+
+}
