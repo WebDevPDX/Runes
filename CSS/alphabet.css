@@ -1,8 +1,16 @@
+/**********************************
+GENERAL
+***********************************/
+
 h1, h2, h3, h4, h5 {
 	font-family: "Eagle Lake";
 	text-decoration: underline;
 	text-align: center;
 }
+
+/**********************************
+LEFT COLUMN
+***********************************/
 
 section {
 	width: 64%;
@@ -14,6 +22,14 @@ section {
 	box-sizing: border-box;
 	background-color: rgba(240,240,240,0.5);
 }
+
+#fullInfo {
+	display: none;
+}
+
+/**********************************
+RIGHT COLUMN
+***********************************/
 
 #theAlphabet p {
 	text-align: left;
@@ -27,9 +43,6 @@ section {
 	transform: scale(1) rotate(0deg);
 }
 
-#fullInfo {
-	display: none;
-}
 
 /**********************************
 MEDIA QUERIES

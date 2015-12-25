@@ -1,8 +1,16 @@
+/**********************************
+GENERAL
+***********************************/
+
 h1, h2, h3, h4, h5 {
 	font-family: "Eagle Lake";
 	text-decoration: underline;
 	text-align: center;
 }
+
+/**********************************
+LEFT COLUMN
+***********************************/
 
 section {
 	width: 64%;
@@ -14,6 +22,19 @@ section {
 	box-sizing: border-box;
 	background-color: rgba(240,240,240,0.5);
 }
+
+.by a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.by a:hover {
+	color: darkgreen;
+}
+
+/**********************************
+RIGHT COLUMN
+***********************************/
 
 #otherContent {
 	width: 34%;
@@ -37,15 +58,6 @@ li:hover {
 .by {
 	font-size: .6rem;
 	text-align: center;
-}
-
-.by a {
-  text-decoration: none;
-  color: darkred;
-}
-
-.by a:hover {
-	color: darkgreen;
 }
 
 #historyOne, #historyTwo, #historyThree, #historyFour, #historyFive{

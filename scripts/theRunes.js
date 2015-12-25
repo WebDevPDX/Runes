@@ -1,3 +1,5 @@
+//Array to hold all data and information about the Runes. Used array instead of json file as it was easier to work with locally
+
 theRunes = new Array()
 	
 theRunes[0] = {
